@@ -1,0 +1,133 @@
+.body {
+    background-color: white;
+    align-items: center;
+}
+
+.navbar {
+    vertical-align: 1ch;
+    margin-left: 10ch;
+    font-size: 25px;
+    cursor: grab;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.media {
+    height: 55px;
+    width: 45px;
+    margin-left: 15ch;
+    vertical-align: 2ch;
+}
+
+.media1 {
+    height: 35px;
+    width: 49px;
+    margin-left: 2ch;
+    vertical-align: 2ch;
+}
+
+.media2{
+    height: 23px;
+    width: 45px;
+    margin-left: 2ch;
+    vertical-align: 2ch;
+
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+}
+
+h3 {
+    text-align: center;
+    font-size: 22px;
+    font-weight: normal;
+    margin: 0;
+    padding: 3px;
+}
+
+.main {
+    height: 400px;
+    width: 420px;
+    margin-left: 7ch;
+    margin-top: 4ch;
+}
+
+.slideshow {
+    overflow: hidden;
+    width: 100%;
+}
+
+.slideshow-container {
+    display: flex;
+    width: 2100%; /* Adjust this to accommodate all images and gaps */
+    animation: slideImages 180s linear infinite;
+}
+
+.slide-image {
+    height: 620px;
+    margin: 0 10px;
+    flex: 0 0 auto; /* Ensure images don't shrink */
+}
+
+@keyframes slideImages {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+.brief{
+    font-size:18px;
+    font-weight: normal;
+}
+
+.whatido-container {
+    display: flex;
+    justify-content: space-around; /* Adjust as needed for spacing */
+    align-items: center;
+    margin-top: 30px; /* Adjust spacing from above content */
+
+}
+
+.whatido {
+    text-align: center;
+    width: 30%; /* Adjust width of each section */
+  
+}
+
+.whatido-img {
+    width: 100%; /* Ensure images fill their containers */
+    height: 500px; /* Adjust height as needed */
+    object-fit: cover; /* Ensure images maintain aspect ratio */
+    vertical-align: 2ch;
+}
+.contactus {
+    width: 100%; /* Adjust width as needed */
+    max-width: 1470px; /* Example maximum width */
+    height: 100%; /* Ensures section takes full height */
+    margin: auto; /* Center horizontally */
+    background-color: black;
+    color: white;
+    text-align: center; /* Center text */
+    padding: 20px;
+}
+
+.cu {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+button {
+    margin-top: 20px;
+    font-size: 24px;
+    padding: 10px 20px;
+    cursor:auto;
+}
