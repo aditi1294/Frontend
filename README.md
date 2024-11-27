@@ -1,5 +1,6 @@
 **Photographer Portfolio**
-This is the portfolio website I developed for a freelance photographer, showcasing their photography work, skills, and services. The website aims to highlight the photographer’s style through a clean and user-friendly interface, offering an engaging experience for potential clients.
+This is the portfolio website I developed for a freelance photographer, showcasing their photography work, skills, and services. 
+The website aims to highlight the photographer’s style through a clean and user-friendly interface, offering an engaging experience for potential clients.
 
 Features
 Responsive Design: The website is optimized for both desktop and mobile devices.
